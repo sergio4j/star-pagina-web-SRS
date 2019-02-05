@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Add Movie - Simple Star Wars Site</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/bootstrap-theme.css">
+  </head>
+
+  <body>
+    <div class="container">
+    <section>
+      <h1>Add Movie</h1>
+      <h2>Attribution information</h2>
+      <form>
+        <label for="title">Title</label>
+        <input id="title" type="text" name="title" value="">
+        <label for="opening-crawl">Opening Crawl</label>
+        <textarea id="opening-crawl" name="opening-crawl" rows="8" cols="40"></textarea>
+        <label for="directors">Director(s)</label>
+        <textarea id="directors" name="directors" rows="8" cols="40"></textarea>
+        <p>One director per line.</p>
+        <label for="producers">Producer(s)</label>
+        <textarea id="producers" name="producers" rows="8" cols="40"></textarea>
+        <p>One producer per line.</p>
+        <label for="writers">Writer(s)</label>
+        <textarea id="writers" name="writers" rows="8" cols="40"></textarea>
+        <p>One writer per line.</p>
+        <label for="starring">Starring</label>
+        <textarea id="starring" name="starring" rows="8" cols="40"></textarea>
+        <p>One actress/actor per line.</p>
+        <label for="music-by">Music by</label>
+        <input id="music-by" type="text" name="music-by" value="">
+        <input type="submit" name="submit" value="Add movie">
+      </form>
+    </section>
+    <script
+        src="https://code.jquery.com/jquery-1.12.4.js"
+        integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+        crossorigin="anonymous"></script>
+    
+    <script src="js/bootstrap.js"></script>
+  </div>
+  </body>
+</html>
